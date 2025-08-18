@@ -20,6 +20,7 @@ int HistorianHysteria::first_part(std::string data_private){
     return 0;
 }
 
+
 int HistorianHysteria::second_part(std::string data_private){
     //try tomorrow
     return 0;

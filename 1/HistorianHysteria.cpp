@@ -25,8 +25,6 @@ int HistorianHysteria::second_part(std::string data_private){
     return 0;
 }
 
-
-
 int main() {
     std::string input;
     std::ifstream fin("input.txt");

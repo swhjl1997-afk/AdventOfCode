@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = D:\_gitProject\AdventOfCode\1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\_gitProject\AdventOfCode\1\build-mingw
+CMAKE_BINARY_DIR = D:\_gitProject\AdventOfCode\1\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/HistorianHysteria.dir/clean
 CMakeFiles/HistorianHysteria.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HistorianHysteria.dir\build.make CMakeFiles/HistorianHysteria.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HistorianHysteria.dir\build.make CMakeFiles/HistorianHysteria.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\_gitProject\AdventOfCode\1\build-mingw\CMakeFiles --progress-num=1,2,3 "Built target HistorianHysteria"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\_gitProject\AdventOfCode\1\build\CMakeFiles --progress-num=1,2,3 "Built target HistorianHysteria"
 .PHONY : CMakeFiles/HistorianHysteria.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HistorianHysteria.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\_gitProject\AdventOfCode\1\build-mingw\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\_gitProject\AdventOfCode\1\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/HistorianHysteria.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\_gitProject\AdventOfCode\1\build-mingw\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\_gitProject\AdventOfCode\1\build\CMakeFiles 0
 .PHONY : CMakeFiles/HistorianHysteria.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ HistorianHysteria: CMakeFiles/HistorianHysteria.dir/rule
 # codegen rule for target.
 CMakeFiles/HistorianHysteria.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HistorianHysteria.dir\build.make CMakeFiles/HistorianHysteria.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\_gitProject\AdventOfCode\1\build-mingw\CMakeFiles --progress-num=1,2,3 "Finished codegen for target HistorianHysteria"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\_gitProject\AdventOfCode\1\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target HistorianHysteria"
 .PHONY : CMakeFiles/HistorianHysteria.dir/codegen
 
 # clean rule for target.

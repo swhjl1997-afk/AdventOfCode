@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "D:/_gitProject/AdventOfCode/1")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/_gitProject/AdventOfCode/1/build-mingw")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/_gitProject/AdventOfCode/1/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

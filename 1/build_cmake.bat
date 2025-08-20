@@ -1,2 +1,2 @@
-cmake -G "MinGW Makefiles" -DCMAKE_SH="CMAKE_SH-NOTFOUND" -S . -B build-mingw
-cmake --build build-mingw
+cmake -G "MinGW Makefiles" -S . -B build
+cmake --build build
